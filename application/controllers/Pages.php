@@ -9,7 +9,8 @@ class Pages extends CI_Controller{
 			show_404();
 		}
 
-		$data['title'] = ucfirst($page); //Capitalize the first letter
+		$data['title'] = ucfirst("News"); //Capitalize the first letter
+		$data['desc'] = "The latest and best articles <br>selected by our editorial office";
 
 		$this->load->view('templates/header', $data);
 		$this->load->view('pages/'.$page, $data);

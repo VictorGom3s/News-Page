@@ -10,6 +10,7 @@ class News extends CI_Controller{
 	public function index(){
 		$data['news'] = $this->news_model->get_news();
 		$data['title'] = 'News Archive';
+		$data['desc'] = "Our most recent articles, for you.";
 
 		$this->load->view('templates/header', $data);
 		$this->load->view('news/index', $data);
@@ -35,6 +36,7 @@ class News extends CI_Controller{
 		$this->load->library('form_validation');
 
 		$data['title'] = 'Create a news item';
+		$data['desc'] = "Write an amazing article.";
 
 		$this->form_validation->set_rules('title', 'Title', 'required');
 		$this->form_validation->set_rules('text', 'Text', 'required');

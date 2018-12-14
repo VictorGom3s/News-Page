@@ -1,0 +1,37 @@
+// Variaveis
+$corTextoMenu : gray;
+$bordaMenu : 2px solid #80808036;
+
+// All
+*{
+	box-sizing: border-box;
+}
+
+// NavBar
+.menu{
+	border-bottom: $bordaMenu;
+	line-height: 43px;
+	height: 60px;
+	a{
+		color: $corTextoMenu;
+	}
+}
+
+// Conteudo
+
+#conteudo{
+	margin-top: 50px;
+	h1{
+		font-weight: 400;
+	}
+}
+
+// Footer
+footer{
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+	line-height: 60px;
+	border-top: $bordaMenu;
+}
