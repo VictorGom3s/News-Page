@@ -26,6 +26,26 @@ $bordaMenu : 2px solid #80808036;
 	}
 }
 
+.container{
+	box-sizing: border-box;
+	.categoria-sm{
+		position: relative;
+		width: 253px;
+		height: 367px;
+		background-color: black;
+		margin: 10px 15px 10px 15px;
+		color: $corTextoMenu;
+	}
+
+	.categoria-bg{
+		position: relative;
+		width: 556px;
+		height: 270px;
+		background-color: black;
+		margin: 15px;
+		color: $corTextoMenu;
+	}
+}
 // Footer
 footer{
 	position: absolute;

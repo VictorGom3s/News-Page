@@ -21,6 +21,29 @@
   font-weight: 400;
 }
 
+.container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container .categoria-sm {
+  position: relative;
+  width: 253px;
+  height: 367px;
+  background-color: black;
+  margin: 10px 15px 10px 15px;
+  color: gray;
+}
+
+.container .categoria-bg {
+  position: relative;
+  width: 556px;
+  height: 270px;
+  background-color: black;
+  margin: 15px;
+  color: gray;
+}
+
 footer {
   position: absolute;
   bottom: 0;
