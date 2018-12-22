@@ -1,6 +1,6 @@
 <footer>
 	<div class="container">
-		<span class="text-muted"><em>&copy; 2015</em></span>
+		<span class="text-muted"><em>&copy; 2018</em></span>
 	</div>
 </footer>
 
